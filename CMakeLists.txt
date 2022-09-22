@@ -57,3 +57,5 @@ endif()
 
 set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
+
+execute_process(COMMAND ${CMAKE_COMMAND} -E copy ${ROOT_DIR}/decodeconfig.ini ${CMAKE_BINARY_DIR})
