@@ -34,13 +34,13 @@ using namespace cv;
 //test
 //server use srs
 //test 1
-//streampusher rtmp://172.19.0.228/livevideo/ddd
-//ffplay rtmp://172.19.0.228/livevideo/ddd
+//streampusher rtmp://192.168.1.125/livevideo/ddd
+//ffplay rtmp://192.168.1.125/livevideo/ddd
 // Stream #0:0 : Data : none
 // Stream #0:1 : Video : flv1, yuv420p, 1920x1080, 4000 kb / s, 25 fps, 25 tbr, 1k tbn
 //test 2
-// obs push rtmp://172.19.0.228/livevideo/ddd/123456
-//ffplay rtmp://172.19.0.228/livevideo/ddd/123456
+// obs push rtmp://192.168.1.125/livevideo/ddd/123456
+//ffplay rtmp://192.168.1.125/livevideo/ddd/123456
 // Stream #0:0: Data: none
 // Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp, 163 kb/s
 // Stream #0:2: Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 2560 kb/s, 30 fps, 30 tbr, 1k tbn, 60 tbc
